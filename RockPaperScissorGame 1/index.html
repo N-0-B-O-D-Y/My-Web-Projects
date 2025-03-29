@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <h1>Rock Paper Scissor</h1>
+
+      <div class="container">
+        <div class="game">
+          <button id="rock" class="box hov">
+            <i id="r" class="fa-solid fa-hand-fist"></i>
+          </button>
+          <button id="paper" class="box hov">
+            <i id="p" class="fa-solid fa-hand"></i>
+          </button>
+          <button id="scissor" class="box hov">
+            <i id="s" class="fa-solid fa-hand-scissors"></i>
+          </button>
+        </div>
+      </div>
+
+      <div class="outer">
+        <div class="resultOuter">
+          <div class="inner1 inner">
+            <p id="userVal" class="val">0</p>
+            <p id>You</p>
+          </div>
+
+          <div class="inner2 inner">
+            <p id="compVal" class="val">0</p>
+            <p id>Robot</p>
+          </div>
+        </div>
+      </div>
+
+      <button id="yourMove">Pick Your Move</button>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
