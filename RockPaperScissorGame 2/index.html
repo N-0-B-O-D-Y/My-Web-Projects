@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock Paper Scissor</title>
+
+    <!-- Here we are linking our css file with our html file -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <!-- ---------------------------- our body starts here ----------------------------- -->
+  <body>
+    <h1>Rock Paper Scissor</h1>
+    <div class="choices">
+      <div class="choice" id="rock">
+        <img src="./images/rock.png" alt="rock" />
+      </div>
+      <div class="choice" id="paper">
+        <img src="./images/paper.png" alt="rock" />
+      </div>
+      <div class="choice" id="scissors">
+        <img src="./images/scissors.png" alt="rock" />
+      </div>
+    </div>
+
+    <div class="score-board">
+      <div class="score">
+        <p id="user-score">0</p>
+        <p>User</p>
+      </div>
+
+      <div class="score">
+        <p id="robot-score">0</p>
+        <p>Robot</p>
+      </div>
+    </div>
+
+    <div class="msg-container">
+      <p id="msg">Play Your Move</p>
+    </div>
+
+    <!-- Here we are linking our 'js' file with our html file -->
+    <script src="script.js"></script>
+  </body>
+  <!-- ------------------------- our body tag ends here -------------------------- -->
+</html>
