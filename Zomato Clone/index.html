@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zomato</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header-container">
+        <nav class="navbar">
+          <ul class="header-list">
+            <li class="list-item item1">Get the App</li>
+            <li class="list-item item">Investor Relation</li>
+            <li class="list-item item">Add restaurant</li>
+            <li class="list-item item">Log in</li>
+            <li class="list-item item">Sign up</li>
+          </ul>
+        </nav>
+        <div class="heading-box">
+          <img id="logo" src="logo.avif" alt="logo" />
+        </div>
+        <div class="header-info">Discover the best food & drinks in Kanpur</div>
+
+        <div class="header-search">
+          <!-- 1. location icon -->
+          <div class="loc-div">
+            <select class="header-dropdown">
+              <option value="Kanpur">Kanpur</option>
+              <option value="Lucknow">Lucknow</option>
+            </select>
+          </div>
+          |
+
+          <div class="search-icon">
+            <!-- search icon -->
+          </div>
+          <input
+            type="text"
+            placeholder="Search for restaurant, cuisine or a dish"
+            id="header-searchbox"
+          />
+        </div>
+      </div>
+    </header>
+
+    <!-- here is our main section -->
+    <main>
+      <!-- Here is our main-inner1 section -->
+      <div class="main-inner1">
+        <!-- this div is for image section -->
+        <div class="inner-div1">
+          <div class="inner-sub1 hoverable">
+            <div class="inner-sub1-div1">
+              <!--This div will contain the image-->
+            </div>
+            <div class="inner-sub1-div2">
+              <p class="para1">Order Online</p>
+              <p class="para2">Stay home and order to your doorbell</p>
+            </div>
+          </div>
+          <div class="inner-sub2 hoverable">
+            <div class="inner-sub2-div1">
+              <!--This div will contain the image-->
+            </div>
+            <div class="inner-sub2-div2">
+              <p class="para1">Dining</p>
+              <p class="para2">View the city's favourite dining venues</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- this div is for text section -->
+        <div class="inner-div2">
+          <div class="inner-div2-title">
+            <p class="div2-title">
+              Popular localities in and around
+              <span class="div2-title-city">Kanpur</span>
+            </p>
+          </div>
+
+          <div class="inner-div2-cardSection">
+            <div class="div2-card1">
+              <div class="card1-data">
+                <h5 class="data1">Kanpur locality</h5>
+                <p class="data2">180 places</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Here is our main-inner2 section -->
+      <div class="main-inner2">
+        <div class="inner2-div1">
+          <img src="mobileimg.avif" alt="mobileimg" />
+        </div>
+        <div class="inner2-div2">
+          <div class="inner2-div2-div">
+            <h2>Get the Zomato app</h2>
+            <p>
+              We will send you a link, open it on your phone to download the app
+            </p>
+            <section class="radiobuttons">
+              <div>
+                <input type="radio" id="email" class="radio" /><label
+                  for="email"
+                  >Email</label
+                >
+              </div>
+
+              <div>
+                <input type="radio" id="phone" class="radio" /><label
+                  for="phone"
+                  >Phone</label
+                >
+              </div>
+            </section>
+
+            <div class="inner2-search-div">
+              <input type="text" placeholder="Email" />
+              <button>Share App link</button>
+              <!-- <input type="button" class="button" value="Share App Link"> -->
+            </div>
+            <p id="guidetext">download app from</p>
+
+            <div class="inner2-store-img">
+              <div class="image">
+                <img src="playstore.webp" alt="playstore" />
+              </div>
+              <div class="image">
+                <img src="appstore.webp" alt="appstore" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Here is our main-inner3 section -->
+
+      <div class="main-inner3">
+        <div class="inner3-outer-div">
+          <p>Explore option near me</p>
+          <div class="inner3-inner">
+            <div class="inner3-inner-div">
+              <div class="title-div">
+                <section><h5>Popular cuisines near me</h5></section>
+              </div>
+              <div class="data-div hidden">
+                <span>Bakery near me</span>
+                <i class="fa-solid fa-circle"></i>
+                <span>Beverages near me</span>
+                <i class="fa-solid fa-circle"></i>
+                <span>Biryani near me</span>
+                <i class="fa-solid fa-circle"></i>
+                <span>Burger near me</span>
+                <i class="fa-solid fa-circle"></i>
+                <span>Chinese near me</span>
+                <i class="fa-solid fa-circle"></i>
+                <span>Coffee near me</span>
+                <i class="fa-solid fa-circle"></i>
+                <span>Desserts near me</span>
+                <i class="fa-solid fa-circle"></i>
+                <span>Italian near me</span>
+                <i class="fa-solid fa-circle"></i>
+                <span>Mithai near me</span>
+                <i class="fa-solid fa-circle"></i>
+                <span>Momos near me</span>
+                <i class="fa-solid fa-circle"></i>
+                <span>Mughlai near me</span>
+                <i class="fa-solid fa-circle"></i>
+                <span>North Indian near me</span>
+                <i class="fa-solid fa-circle"></i>
+                <span>Pizza near me</span>
+                <i class="fa-solid fa-circle"></i>
+                <span>Rolls near me</span>
+                <i class="fa-solid fa-circle"></i>
+                <span>Sandwich near me</span>
+                <i class="fa-solid fa-circle"></i>
+                <span>Shake near me</span>
+                <i class="fa-solid fa-circle"></i>
+                <span>Sichuan near me</span>
+                <i class="fa-solid fa-circle"></i>
+                <span>South Indian near me</span>
+                <i class="fa-solid fa-circle"></i>
+                <span>Street near me</span>
+                <i class="fa-solid fa-circle"></i>
+                <span>Tea near me</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- now we will right the code for our footer -->
+    <footer>
+      <div class="footer-container">
+        <section class="footer-outer-section1">
+          <img src="logoBlack.avif" alt="logo" />
+          <section class="dropdown-section">
+            <div class="footer-sec-div">
+              <select class="footer-country footer-sec-select">
+                <option value="India">India</option>
+                <option value="UAE">UAE</option>
+              </select>
+            </div>
+            <div class="footer-sec-div">
+              <select class="footer-lang footer-sec-select">
+                <option value="English">India</option>
+                <option value="Hindi">Hindi</option>
+              </select>
+            </div>
+          </section>
+        </section>
+
+        <!-- here our footer div part will start -->
+        <div class="footer-outer-div">
+          <div class="footer-inner-div">
+            <h6>About Zomato</h6>
+            <p>Who We Are</p>
+            <p>Blog</p>
+            <p>Work With Us</p>
+            <p>Investor Relations</p>
+            <p>Report Fraud</p>
+            <p>Contact us</p>
+          </div>
+          <div class="footer-inner-div">
+            <h6>Zomaverse</h6>
+            <p>Zomato</p>
+            <p>Blinkit</p>
+            <p>District</p>
+            <p>feeding India</p>
+            <p>Hyperpure</p>
+          </div>
+          <div class="footer-inner-div">
+            <h6>For Restaurants</h6>
+            <p>Partner with us</p>
+            <p>app for you</p>
+          </div>
+          <div class="footer-inner-div">
+            <h6>Learn More</h6>
+            <p>privacy</p>
+            <p>security</p>
+            <p>terms</p>
+          </div>
+          <div class="footer-inner-div">
+            <h6>Social links</h6>
+            <div class="social-icons">
+              <i class="fa-brands fa-linkedin"></i>
+              <i class="fa-brands fa-square-instagram"></i>
+              <i class="fa-brands fa-square-x-twitter"></i>
+              <i class="fa-brands fa-square-youtube"></i>
+              <i class="fa-brands fa-facebook"></i>
+            </div>
+            <br />
+            <section>
+              <img src="playstore.webp" alt="playstore" />
+              <img src="appstore.webp" alt="appstore" />
+            </section>
+          </div>
+        </div>
+        <br />
+        <br />
+        <br />
+        <br />
+        <hr />
+        <p class="copyright">
+          By continuing past this page, you agree to our Terms of Service,
+          Cookie Policy, Privacy Policy and Content Policies. All trademarks are
+          properties of their respective owners. 2008-2025 © Zomato™ Ltd. All
+          rights reserved.
+        </p>
+      </div>
+    </footer>
+    <script src="app.js"></script>
+  </body>
+</html>
