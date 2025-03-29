@@ -1,0 +1,326 @@
+/* here we are setting the default margin and padding to 0, so that only we can give these properties by myself */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    border:border-box;
+}
+
+/* Extra Features */
+
+/* here we are creating a default solid background for the class border */
+.border{
+    border:1.5px solid transparent;
+}
+
+/* whenever we hover over an element containing border class, then we can see a white box around its border */
+.border:hover{
+    border:1.5px solid white;
+}
+
+/* Note :- 'with different border dimension's declaration in default border class and border class after hover, we can a special effect there, that is, our element will appear to be sliding a bit whenever we hover over it'*/
+
+/* From here, our CSS code for navbar starts */
+
+/* Navbar Outer */
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/* Nav-logo, the outer class of logo */
+.nav-logo{
+    height: 50px;
+    width: 100px;
+}
+
+/* logo class */
+.logo{
+    height: 100%;
+    width: 100%;
+    background-image: url(images/amazon_logo.png);
+    background-size: cover;
+}
+
+
+/* box 2 */
+
+.addr-icon{
+    display: flex;
+    align-items: center;
+}
+
+.add-first{
+    color: #cccccc;
+    font-size: 0.7rem;
+    margin-left: 18px;
+}
+
+.add-sec{
+    font-size: 1rem;
+    margin-left: 3px;
+    font-weight: 700;
+}
+
+/* box 3 */
+.nav-search{
+    height: 40px;
+    width: 620px;
+    background-color: #0f1111;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 5px;
+    border: 1.8px solid transparent;
+}
+
+.nav-search:hover{
+    border:1.8px solid #febd68;
+}
+
+.nav-search select{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+}
+
+.nav-search input{
+    width: 100%;
+    border: none;
+    font-size: 1rem;
+}
+
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: #febd68;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: none;
+    color: #0f1111;;
+}
+
+/* box 4 */
+.nav-signIn span{
+    font-size: .7rem;
+}
+
+.box-4-p2{
+    font-size: .85rem;
+    font-weight: 700;
+}
+
+
+/* box 5 */
+.nav-return span{
+    font-size: .7rem;
+}
+
+.box-5-p2{
+    font-size: .85rem;
+    font-weight: 700;
+}
+
+/* box 6 */
+.nav-cart i{
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+.nav-cart{
+    font-size: .85rem;
+    font-weight: 700;
+}
+/* Here comes an end to our Navbar CSS code */
+/*************************************************/
+
+
+/* From Here our code for panel starts */
+
+.panel{
+    height: 40px;
+    display: flex;
+    background-color: #222f3d;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+.panel-options p{
+    display: inline;
+    margin: 15px;
+}
+
+.panel-options{
+    width: 75%;
+    margin-left: 20px;
+    font-size: .85rem;
+}
+
+.panel-deals{
+    font-size: .9rem;
+    font-weight: 700;
+}
+
+/* Our code for panel ends here */
+/************************************************/
+
+/* Our code for Hero Section starts here */
+
+.hero-section{
+    height: 350px;
+    background-image: url(images/hero_image.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.hero-msg{
+    height: 40px;
+    width: 98%;
+    margin-bottom: 25px;
+    background-color: #cccccc;
+    color:#0f1111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+}
+
+.hero-msg a{
+    color: #007185;
+    text-decoration: none;
+}
+
+/* From here, code for shop section starts */
+.shop-section{
+    background-color: #e2e7e6;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.box{
+    margin-top: 15px;
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+}
+
+.box-img{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    height: 300px;
+    background-size: cover;
+}
+
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.box-content p{
+    color: #007185;
+}
+
+.box-below{
+    margin-bottom: 20px;
+}
+
+/* From here our code for footer will start */
+
+.footer-panel{
+    height: 130px;
+    background-color: white;
+}
+
+.footer-inner-panel{
+    padding-top: 35px;
+    margin-top: 48px;
+    padding-bottom: none;
+    height: 130px;
+    border: 0.01rem solid #5a5c5c;
+    border-radius: 5px 5px 5px 5px;
+    text-align: center;
+}
+
+.footer-inner-panel h2{
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+.footer-button{
+    margin-bottom: 4px;
+    height:29px;
+    width: 180px;
+    border-radius: 20px 20px 20px 20px;
+    background-color: #ffd814;
+    border: none;
+}
+
+.footer-button span{
+    font-size: 13px;
+}
+
+.footer-inner-panel p{
+    font-size: 11px;
+}
+.footer-inner-panel a{
+    color: #007185;
+}
+
+/* footer panel 2 */
+.footer-panel2{
+    margin-top: 60px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #37475a;
+    color: white;
+}
+.footer-panel2 p{
+    font-size: 13px;
+}
+
+/* code for footer panel 3 */
+.footer-panel3{
+    height: 460px;
+    background-color: #232f3e;
+    display: flex;
+    color: #dddddd;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.list{
+    height: 290px;
+}
+.list p{
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+/* code section for footer panel 4 */
+
+.footer-panel4{
+    height:80px;
+    background-color:#131a22;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-panel4 p{
+    font-size: 12px;
+    color: white;
+}
+
